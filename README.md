@@ -76,9 +76,9 @@ To analyze unemployment trends in India with a focus on the COVID-19 period, usi
 
 ##  Submission Links
 
-- [GitHub Repository](#) – Replace with your GitHub repo link  
-- [Video Demo (YouTube/LinkedIn)](#) – If applicable  
-- [LinkedIn Post](#) – Share your learning experience and tag **@Oasis Infobyte** using hashtags like `#DataScience #OIBSIP #COVID19Analytics`
+- [GitHub Repository](#) 
+- [Video Demo (LinkedIn)](#) 
+- [LinkedIn Post](#) 
 
 ---
 
