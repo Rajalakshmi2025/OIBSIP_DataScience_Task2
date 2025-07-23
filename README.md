@@ -4,10 +4,15 @@
 **Task 2- Data Science Domain**
 
 ---
+Unemployment is measured by the unemployment rate — the number of people who are unemployed as a percentage of the total labor force. We saw a sharp increase in unemployment during the COVID-19 pandemic. This project analyzes the changing patterns in unemployment and visualizes them using data science tools.
+
+---
 
 ##  Objective
 
-To analyze unemployment trends in India with a focus on the COVID-19 period, using data visualization and statistical techniques to understand regional and national patterns in unemployment.
+The aim of this project is to analyze unemployment trends in India during the COVID-19 pandemic. Using real-world data, we explore how unemployment rates varied over time, regions, and other demographic factors. The goal is to provide insights into the socio-economic impact of the pandemic.
+
+
 
 ---
 
@@ -26,14 +31,30 @@ To analyze unemployment trends in India with a focus on the COVID-19 period, usi
   - `Region.1`: Geographical region (e.g., South, North)
   - `Latitude` and `Longitude`
 
----
+
 
 ##  Tools & Libraries Used
 
-- **Python 3.x**
-- **Pandas** – Data cleaning & transformation
-- **Matplotlib / Seaborn** – Visualization
-- **NumPy** – Numerical operations
+- **Languages**: Python
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn
+- **Techniques**:
+  - Data Cleaning & Preprocessing
+  - Time-Series Analysis
+  - Comparative & Correlation Analysis
+  - Visual Exploration
+--- 
+### Workflow
+-**Data Collection**
+Used unemployment dataset
+
+-**Data Cleaning**
+Handled missing data and ensured the dataset was analysis-ready.
+
+-**Exploratory Data Analysis**
+Performed univariate and multivariate analysis of state-wise unemployment rates.
+
+-**Data Visualization**
+Created insightful bar charts, heatmaps, and time series plots to understand unemployment trends.
 
 ---
 
@@ -57,22 +78,27 @@ To analyze unemployment trends in India with a focus on the COVID-19 period, usi
 - Labour participation rate showed **positive correlation** with employment.
 
 ### 5. **Before vs After Lockdown**
-- Compared Jan–Mar vs Apr–Jun data.
-- **Puducherry** saw a drastic increase from ~1% to ~46%.
+- Compared Jan–Mar vs. Apr–Jun unemployment across states.
+- **Key Findings**:
+  - Bihar: 12% → 37%
+  - Delhi: 18% → 25%
+  - Puducherry: ~1% → ~46% (highest spike)
+  - Less-affected states: Chhattisgarh, Assam, Odisha
 - Most states showed significant post-lockdown unemployment rises.
 
 ---
 
-##  Key Insights
+##  Highlights
 
-- **Lockdown Impact**: Every state saw a rise in unemployment; worst-hit were Bihar, Delhi, Tripura, and Puducherry.
-- **Urban vs Rural Divide**: Urban areas experienced more volatility and loss.
-- **Regional Trends**: Northern and Eastern regions were more affected than Southern states.
-- **Economic Resilience**: States with rural, agriculture-heavy economies fared better (e.g., Chhattisgarh, Assam).
-- **Statistical Relationships**: Unemployment rate inversely linked to employment and labour participation.
-
+- **Significant Post-Lockdown Spike**: Unemployment rose drastically across India after lockdown in 2020.
+- **Regional Variations**:
+  - North & East India faced harsher unemployment impact.
+  - South India remained more stable.
+- **Urban vs Rural Divide**:
+  - Urban areas more severely impacted due to dependency on services and industry.
+- **Economic Vulnerabilities**:
+  - States with tourism, hospitality, or industrial reliance (like Puducherry, Tamil Nadu) were hit hardest.
 ---
-
 
 ##  Submission Links
 
@@ -85,6 +111,14 @@ To analyze unemployment trends in India with a focus on the COVID-19 period, usi
 ## Conclusion
 
 This project offered valuable insights into the socio-economic impact of the COVID-19 lockdowns on Indian labor markets. It emphasized the importance of using **data science and visual storytelling** to drive policy awareness and aid recovery planning.
+
+---
+##  Learnings
+
+- Hands-on experience with real-world COVID-era data
+- Strengthened skills in EDA, preprocessing, and visual storytelling
+- Learned how to compare pre- and post-crisis data with visual metrics
+- Gained insight into socio-economic implications of a pandemic
 
 
 
